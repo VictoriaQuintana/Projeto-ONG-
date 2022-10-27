@@ -1,0 +1,108 @@
+/* DECLARANDO VARIÁVEIS DAS FONTS */
+:root {
+  --font-doistexto: "Oitobittxt2";
+  --font-titulo: "Oitobit";
+  --font-texto: "Oitobit-txt";
+}
+
+/* HEADER */
+
+.navbar-brand {
+  font-size: 35px;
+}
+
+.botao1 {
+  margin-inline-end: 10px;
+}
+header nav {
+  height: 100px;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.945);
+}
+
+/* MAIN */
+
+a {
+  color: rgb(0, 0, 0) !important;
+  text-decoration: none;
+}
+/* FOOTER */
+h5 {
+  font-family: var(--font-texto) !important;
+  font-size: 30px;
+}
+form h5 {
+  font-size: 30px;
+  color: #0dcaf0 !important;
+  font-family: var(--font-texto);
+}
+form p {
+  color: #6c757d !important;
+}
+
+/* h5 {
+    font-size: 25px;
+  }
+  */
+
+/* fotos e titulos principais da main */
+
+#titulo-foto {
+  font-family: var(--font-titulo);
+}
+
+#titulo-cyber {
+  font-family: var(--font-titulo);
+  font-size: 80px;
+}
+
+#subtitulo-cyber {
+  font-family: var(--font-texto);
+  font-size: 20px;
+}
+
+.nav-item {
+  font-size: 20px;
+}
+
+a,
+p {
+  font-family: var(--font-texto);
+}
+
+h1 {
+  font-family: var(--font-texto);
+  color: #0dcaf0;
+  font-size: 50px !important;
+  text-shadow: 2px 2px 4px black;
+}
+#pic-logo {
+  width: 90px;
+}
+
+h3,
+h4,
+h5,
+.titulos-submenores {
+  font-family: var(--font-doistexto);
+}
+
+.titulos-menores {
+  font-family: var(--font-texto);
+}
+
+.fw-normal,
+.btn {
+  font-family: var(--font-texto);
+  font-size: 25px;
+}
+#img {
+  width: 500px;
+}
+
+#img-dois {
+  width: 400px;
+  margin-left: 5px;
+}
