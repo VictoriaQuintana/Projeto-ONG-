@@ -1,0 +1,67 @@
+main .container-img section {
+  flex-grow: 1;
+  transition-duration: 0.2s;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+main .container-img section h2,
+main .container-img section p {
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition-duration: 1s;
+  font-family: "Montserrat", sans-serif;
+  font-size: 100px;
+  color: rgb(251, 251, 251);
+  text-shadow: 10px 10px 10px black;
+}
+
+main .container-img section p {
+  text-shadow: 3px 3px 3px black;
+  text-align: center;
+  top: 70%;
+  width: 100%;
+}
+
+/* MOBILE */
+.mobile-menu-icon {
+  display: none;
+}
+
+.nav-list-mobile {
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
+/* ALL HOVER */
+header nav .nav-list ul li:hover {
+  transform: scale(1.02);
+}
+
+main .container-img section:hover {
+  flex-grow: 1.5;
+  cursor: pointer;
+}
+
+main .container-img section:hover h2 {
+  opacity: 0.95;
+}
+
+main .container-img section:hover p {
+  opacity: 0.7;
+}
+
+main .container-img section:hover img {
+  filter: blur(5px) brightness(0.7);
+}
