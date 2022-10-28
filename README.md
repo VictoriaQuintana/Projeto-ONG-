@@ -9,3 +9,5 @@ HTML;
 CSS;
 JavaScript;
 Bootstrap.
+
+Os integrantes são: Victoria, Nicolas, Maria Julia, Wellington, Yasmin e Rayssa.
